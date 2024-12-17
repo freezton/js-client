@@ -1,0 +1,31 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'JetBrains Mono', monospace;  /* Применяем шрифт */
+}
+
+/* styles/themes.css */
+:root {
+  --background-color: #121212;
+  --text-color: #ffffff;
+  --header-background: #1e1e1e;
+  --button-background: #3f51b5;
+  --button-color: #ffffff;
+}
+
+[data-theme="dark"] {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --header-background: #f0f0f0;
+  --button-background: #007bff;
+  --button-color: #ffffff;
+}
+
+.hljs {
+  padding: 15px;
+  border-radius: 7px;
+  overflow-x: auto; 
+  color: #ffffff; 
+}
